@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(../fonts/poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight;
+  src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+
+
+@font-face {
+  font-family: PoppinsLightItalic;
+  src: url(../fonts/poppins/Poppins-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+.PoppinsSemiBold {
+  font-family: PoppinsSemiBold !important;
+}
+
+.PoppinsMedium {
+  font-family: PoppinsMedium !important;
+}
+
+.PoppinsLight {
+  font-family: PoppinsLight !important;
+}
+
+.PoppinsRegular {
+  font-family: PoppinsRegular !important;
+}
+
+.PoppinsLightItalic {
+  font-family: PoppinsLightItalic !important;
+}
+
+:root {
+  --themePrimary: #349399;
+  --themeSecondary: #777777;
+  --themeTextSecondary: #056721;
+  --themeSecondaryBg: #A0A0A0;
+  --black: #000;
+  --white: #fff;
+  --themeTextLight: #4E4B66;
+  --themeBgLight: #F5F0F0;
+  --themeBtnColor: #B6CA66;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.fixed-top.scrolled {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  transition: background-color 200ms linear;
+}
+
+.heading1 {
+  color: #349399;
+  font-weight: 600;
+
+}
+
+.sub-heading1 {
+  color: #349399;
+  font-weight: 600;
+}
+
+.para1 {
+  color: #777777;
+}
+
+.sec-color {
+  color: #349399;
+}
+
+.theme-btn {
+  padding: 10px 25px;
+  background: var(--white);
+  color: var(--themePrimary);
+  font-weight: 700;
+  border: 0;
+  border-radius: 28px;
+  border: 1px solid var(--themePrimary);
+}
+
+.theme-btn:hover {
+  transition: 250ms all;
+  background: var(--themePrimary);
+  color: var(--white);
+  border-radius: 28px;
+}
+
+.navv {
+  color: #000;
+  font-weight: 700;
+}
+
+.heading11 {
+  color: #349399;
+  font-weight: 700;
+}
+
+.sub-heading2 {
+  font-weight: 600;
+  color: #494949;
+}
+
+.sub-heading3 {
+  color: #349399;
+  font-weight: 600;
+}
+
+.para3 {
+  color: #777777;
+
+}
+
+.btn1 theme-btn {
+  padding: 10px 25px;
+  background: var(--themePrimary);
+  color: var(--white);
+  font-weight: 700;
+  border: 0;
+  border-radius: 28px;
+  border: 1px solid var(--themePrimary);
+}
+
+.heading4 {
+  font-weight: 600;
+
+  color: #349399;
+}
+
+.para5 {
+  font-weight: 400;
+
+  color: #777777;
+}
+
+.bg-img {
+  background-image: url(../images/3RD\ section.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-imgg {
+  background-image: url(../images/Landingpage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+
+.heading6 {
+  font-weight: 600;
+}
+
+.cust-height {
+  height: 100vh;
+}
+
+.vector::before {
+  content: url(../images/element/element1.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.vector-2::before {
+  content: url(../images/element/element2.png);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.sub-heading4 {
+  color: #3A3D3E
+}
+
+.para4 {
+  color: #777777;
+}
+
+.cadd:hover {
+  box-shadow: 3px 5px 5px #aaaaaa;
+  transition: 500ms all;
+  
+}
+
+.section-main {
+  padding: 2rem 0;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1080px) {
+  .loginbtn{
+    margin-right: -37px;
+  }
+
+  .contactusnav{
+    margin-right: 31px;
+  }
+ 
+}
+
+@media screen and (max-width: 1040px) and (min-width: 468px) {
+  .loginbtn{
+    margin-right: -37px;
+  }
+
+  .contactusnav{
+    margin-right: 31px;
+  }
+
+  .vector::before {
+    content: url(../images/element/element1.png);
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .cust-height {
+    padding-top: 6rem;
+    height: auto;
+  }
+}
+
